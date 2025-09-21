@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>合同会社POZE - 新しい撮影体験を創造する</title>
+    <style>
+        /* 基本的なスタイル */
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            line-height: 1.8;
+            color: #333;
+            margin: 0;
+            background-color: #f9f9f9;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* ヘッダー */
+        header {
+            background-color: #fff;
+            padding: 20px;
+            text-align: center;
+            border-bottom: 1px solid #eee;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            color: #2c3e50;
+        }
+
+        /* 各セクション */
+        section {
+            background-color: #fff;
+            margin: 20px 0;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        }
+        h2 {
+            text-align: center;
+            color: #3498db;
+            margin-bottom: 30px;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+            display: inline-block;
+        }
+        .section-title-wrapper {
+            text-align: center;
+        }
+
+        /* サービス紹介 */
+        .service-description {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .service-link {
+            display: inline-block;
+            background-color: #3498db;
+            color: #fff;
+            padding: 12px 25px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+        .service-link:hover {
+            background-color: #2980b9;
+        }
+
+        /* 会社概要テーブル */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+            width: 30%;
+        }
+
+        /* フッター */
+        footer {
+            text-align: center;
+            padding: 20px;
+            color: #777;
+            font-size: 0.9em;
+        }
+
+        /* スマートフォン対応 */
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 1.8em;
+            }
+            section {
+                padding: 20px;
+            }
+            th, td {
+                display: block;
+                width: 100%;
+                box-sizing: border-box;
+            }
+            th {
+                text-align: center;
+                background-color: #3498db;
+                color: white;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>合同会社POZE</h1>
+    </header>
+
+    <div class="container">
+        <section id="service">
+            <div class="section-title-wrapper">
+                <h2>Our Service</h2>
+            </div>
+            <p class="service-description">
+                合同会社POZEは、Webアプリサービス **Soraniar（ソラニア）** を提供しています。<br>
+                Soraniarは、各地にその場所でしか使えない限定フレームを持つ撮影スポットを設置して、<br>
+                旅行者が新しい撮影体験をしてもらうためのサービスです。
+            </p>
+            <div style="text-align: center;">
+                <a href="https://poze-spot.com" target="_blank" class="service-link">Soraniar サービスサイトへ</a>
+            </div>
+        </section>
+
+        <section id="company">
+            <div class="section-title-wrapper">
+                <h2>会社概要</h2>
+            </div>
+            <table>
+                <tr>
+                    <th>会社名</th>
+                    <td>合同会社POZE</td>
+                </tr>
+                <tr>
+                    <th>設立</th>
+                    <td>2025年7月</td>
+                </tr>
+                <tr>
+                    <th>所在地</th>
+                    <td>〒160-0023 東京都新宿区西新宿3丁目3番13号西新宿水間ビル2F</td>
+                </tr>
+                <tr>
+                    <th>事業内容</th>
+                    <td>Webアプリケーションの開発・運営</td>
+                </tr>
+            </table>
+        </section>
+
+        <section id="contact">
+            <div class="section-title-wrapper">
+                <h2>お問い合わせ</h2>
+            </div>
+            <p style="text-align: center;">
+                弊社へのお問い合わせは、以下のメールアドレスまでお願いいたします。
+                <br>
+                <strong>contact@poze-spot.com</strong>
+            </p>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 POZE LLC. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
