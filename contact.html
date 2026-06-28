@@ -1,35 +1,68 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ja">
+
 <head>
-    <meta charset="UTF-8">
-    <title>CONTACT | 合同会社POZE</title>
-    <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>お問い合わせ | 合同会社POZE</title>
+    <meta name="description" content="Soraniarの導入相談・資料請求・企画相談はこちらからお問い合わせください。">
+    <meta property="og:title" content="お問い合わせ | 合同会社POZE">
+    <meta property="og:description" content="Soraniarの導入相談・資料請求・企画相談はこちらからお問い合わせください。">
+    <meta property="og:type" content="website">
+    <meta name="theme-color" content="#18a7d8">
+    <link rel="stylesheet" href="./styles.css">
 </head>
-<body>
-    <header>
-        <div class="container header-inner">
-            <a href="index.html" class="logo">POZE LLC.</a>
-            <nav>
-                <ul>
-                    <li><a href="about.html">SERVICE</a></li>
-                    <li><a href="cases.html">CASES</a></li>
-                    <li><a href="company.html">COMPANY</a></li>
-                    <li><a href="contact.html">CONTACT</a></li>
-                </ul>
-            </nav>
+
+<body><a class="skip" href="#main">本文へ移動</a>
+    <header class="site-header" data-header>
+        <div class="container header-inner"><a class="brand" href="./index.html"><span
+                    class="brand-mark">P</span><span><b>POZE</b><small>Soraniar</small></span></a><button
+                class="nav-toggle" aria-expanded="false" aria-controls="nav">MENU</button>
+            <nav id="nav" class="nav"><a href="./index.html">TOP</a><a href="./service.html">Soraniar</a><a
+                    href="./cases.html">活用シーン</a><a href="./company.html">会社概要</a><a class="nav-cta"
+                    href="./contact.html">相談する</a></nav>
         </div>
     </header>
-
-    <div class="sub-hero">
-        <h1>CONTACT</h1>
-        <p>お問い合わせ・導入のご相談</p>
-    </div>
-
-    <section class="container">
-        <div class="form-wrapper" style="max-width: 800px; margin: 0 auto; min-height: 800px;">
-            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSd8HK7dGd97SqkRMEfSWm0DAMrPmWAaaybcfs4so_SJ00i1VA/viewform?embedded=true" width="100%" height="800" frameborder="0" marginheight="0" marginwidth="0">読み込んでいます…</iframe>
+    <main id="main">
+        <section class="page-hero">
+            <div class="container narrow">
+                <p class="kicker">CONTACT</p>
+                <h1>お問い合わせ</h1>
+                <p>観光PR、イベント、キャラクター企画、施設での活用など、企画段階からご相談ください。</p>
+            </div>
+        </section>
+        <section class="section white">
+            <div class="container contact-grid">
+                <div class="contact-card">
+                    <h2>フォームで相談する</h2>
+                    <p>以下のボタンからお問い合わせフォームを開くことができます。必要事項をご入力の上、送信してください。</p>
+                    <a class="btn primary"
+                        href="https://docs.google.com/forms/d/e/1FAIpQLSd8HK7dGd97SqkRMEfSWm0DAMrPmWAaaybcfs4so_SJ00i1VA/viewform" target="_blank" rel="noopener">お問い合わせフォームを開く</a>
+                </div>
+                <div class="contact-card soft">
+                    <h2>相談時にあるとよい情報</h2>
+                    <ul>
+                        <li>実施したい場所・イベント名</li>
+                        <li>利用したい画像・キャラクターの有無</li>
+                        <li>希望する開始時期</li>
+                        <li>無料体験・有料フレーム・スポンサー表示の希望</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div><a class="footer-brand" href="./index.html">POZE LLC.</a>
+                <p>現地でしか撮れない、特別な記念写真を。Soraniarは地域・施設・イベントの魅力をARフォト体験に変えるサービスです。</p>
+            </div>
+            <div class="footer-links"><a href="./service.html">Soraniar</a><a href="./cases.html">活用シーン</a><a
+                    href="./company.html">会社概要</a><a href="./contact.html">お問い合わせ</a><a
+                    href="https://poze-spot.com/map.html" target="_blank" rel="noopener">Soraniarマップ</a></div>
         </div>
-    </section>
-    <footer><p>&copy; 2026 POZE LLC. All Rights Reserved.</p></footer>
+        <div class="container copyright">© 2026 POZE LLC. All Rights Reserved.</div>
+    </footer>
+    <script src="./script.js"></script>
 </body>
+
 </html>

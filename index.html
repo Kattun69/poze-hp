@@ -1,58 +1,129 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ja">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>合同会社POZE | 新しい撮影体験 Soraniar</title>
-    <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>合同会社POZE | Soraniar（ソラニアル）</title>
+    <meta name="description" content="Soraniar（ソラニアル）は、観光地・イベント・施設で楽しめる、アプリ不要の現地限定ARフォト体験サービスです。">
+    <meta property="og:title" content="合同会社POZE | Soraniar（ソラニアル）">
+    <meta property="og:description" content="Soraniar（ソラニアル）は、観光地・イベント・施設で楽しめる、アプリ不要の現地限定ARフォト体験サービスです。">
+    <meta property="og:type" content="website">
+    <meta name="theme-color" content="#18a7d8">
+    <link rel="stylesheet" href="./styles.css">
 </head>
-<body>
-    <header>
-        <div class="container header-inner">
-            <a href="index.html" class="logo">POZE LLC.</a>
-            <nav>
-                <ul>
-                    <li><a href="about.html">SERVICE</a></li>
-                    <li><a href="cases.html">CASES</a></li>
-                    <li><a href="company.html">COMPANY</a></li>
-                    <li><a href="contact.html">CONTACT</a></li>
-                </ul>
-            </nav>
+
+<body><a class="skip" href="#main">本文へ移動</a>
+    <header class="site-header" data-header>
+        <div class="container header-inner"><a class="brand" href="./index.html"><span
+                    class="brand-mark">P</span><span><b>POZE</b><small>Soraniar</small></span></a><button
+                class="nav-toggle" aria-expanded="false" aria-controls="nav">MENU</button>
+            <nav id="nav" class="nav"><a href="./index.html">TOP</a><a href="./service.html">Soraniar</a><a
+                    href="./cases.html">活用シーン</a><a href="./company.html">会社概要</a><a class="nav-cta"
+                    href="./contact.html">相談する</a></nav>
         </div>
     </header>
-
-    <main>
-        <section style="text-align: center; padding: 120px 0; background: #f0f7ff;">
-            <div class="container">
-                <h1 style="font-size: 2.5rem; color: #004a99;">現実に「想像」を重ねる、<br>新しい撮影体験を。</h1>
-                <p style="font-size: 1.1rem;">Soraniar（ソラニア）は、スマートフォンのAR技術を活用し、<br>観光の思い出を豊かにする新しいWebサービスです。</p>
-                <a href="about.html" class="btn">サービスを詳しく知る</a>
+    <main id="main">
+        <section class="hero">
+            <div class="cloud c1"></div>
+            <div class="cloud c2"></div>
+            <div class="container hero-grid">
+                <div class="hero-copy">
+                    <p class="kicker">AR PHOTO EXPERIENCE / SORANIAR</p>
+                    <h1>地域の魅力を、<br><span>撮りたくなる体験</span>に。</h1>
+                    <p class="lead">Soraniar（ソラニアル）は、観光地・イベント・施設・キャラクターの魅力を、スマートフォンで楽しめる現地限定ARフォト体験として届けるサービスです。</p>
+                    <div class="actions"><a class="btn primary" href="./service.html">Soraniarを詳しく見る</a><a
+                            class="btn white" href="./contact.html">導入について相談する</a></div>
+                    <div class="tags">
+                        <span>アプリ不要</span><span>QRですぐ起動</span><span>GPS連動</span><span>限定フレーム</span><span>SNS拡散</span>
+                    </div>
+                </div>
+                <div class="hero-device" aria-label="Soraniarの画面イメージ">
+                    <div class="phone">
+                        <div class="speaker"></div>
+                        <div class="screen">
+                            <div class="appbar"><i></i><b>Soraniar MAP</b><em>現地限定</em></div>
+                            <div class="map"><span class="road r1"></span><span class="road r2"></span><span
+                                    class="pin p1">1</span><span class="pin p2">2</span><span class="pin p3">3</span>
+                                <div class="map-card"><b>現在地周辺</b><small>限定フレーム 3件</small></div>
+                            </div>
+                            <div class="camera"><span class="cam-label">AR CAMERA</span>
+                                <div class="frame"><small>LOCAL FRAME</small><strong>旅の記念に</strong>
+                                    <p>この場所だけのAR画像が表示</p>
+                                </div>
+                                <div class="control"><span>MAP</span><button>撮影</button><span>保存</span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="float f1"><span class="qr"></span><b>QRで起動<small>アプリ不要</small></b></div>
+                    <div class="float f2"><span class="gps"></span><b>GPS連動<small>現地限定表示</small></b></div>
+                </div>
             </div>
         </section>
-
-        <section class="container">
-            <div class="section-title">
-                <h2>Why Soraniar?</h2>
+        <section class="section white">
+            <div class="container head center">
+                <p class="kicker">WHY Soraniar</p>
+                <h2>単なる情報発信ではなく、<br>来訪者の「思い出」として残るPRへ。</h2>
+                <p>観光情報をただ見せるだけでは、なかなか記憶に残りません。Soraniarは、来訪者自身が写真を撮り、保存し、共有したくなる体験をつくります。</p>
             </div>
-            <div class="grid">
-                <div class="card">
-                    <h3>無料で気軽に体験</h3>
-                    <p>ユーザーはアプリのインストール不要。QRコードを読み取るだけで即座に体験可能です。</p>
+            <div class="container cards three">
+                <article><i>01</i>
+                    <h3>現地でしか撮れない</h3>
+                    <p>その場所に行く理由をつくり、スポット巡りやイベント来場のきっかけになります。</p>
+                </article>
+                <article><i>02</i>
+                    <h3>SNSで広がりやすい</h3>
+                    <p>写真として残るため、投稿・共有を通じて地域や施設の魅力が自然に広がります。</p>
+                </article>
+                <article><i>03</i>
+                    <h3>小さく始めて横展開</h3>
+                    <p>1スポットの実証から、複数スポット・季節企画・キャラクター企画へ展開できます。</p>
+                </article>
+            </div>
+        </section>
+        <section class="section">
+            <div class="container split">
+                <div>
+                    <p class="kicker">SALES PAGE</p>
+                    <h2>Soraniarの活用・導入説明ページを新設しました。</h2>
+                    <p>自治体・観光協会・企業・イベント主催者に向けて、仕組み、導入メリット、ユーザー体験、他のAR施策との違いをわかりやすく整理しています。</p>
                 </div>
-                <div class="card">
-                    <h3>GPS連動の限定画像</h3>
-                    <p>特定のスポットへ訪れることで、その場所限定のオリジナルフレームが出現します。</p>
-                </div>
-                <div class="card">
-                    <h3>地域活性化への貢献</h3>
-                    <p>SNS拡散や回遊を促す設計により、観光地やイベントの魅力を引き出します。</p>
-                </div>
+                <div class="split-actions"><a class="btn primary" href="./service.html">導入イメージを見る</a><a
+                        class="btn outline" href="./cases.html">活用シーンを見る</a></div>
+            </div>
+        </section>
+        <section class="section white">
+            <div class="container head">
+                <p class="kicker">SCENE</p>
+                <h2>地域・施設・イベントに合わせて、使い方を設計できます。</h2>
+            </div>
+            <div class="container scene-mini"><a href="./cases.html#tourism"><span>観光PR</span><b>名所・回遊スポット</b></a><a
+                    href="./cases.html#event"><span>イベント</span><b>祭り・花火・マルシェ</b></a><a
+                    href="./cases.html#character"><span>キャラクター</span><b>ご当地キャラ・IP連携</b></a><a
+                    href="./cases.html#facility"><span>施設</span><b>ホテル・商業施設・結婚式</b></a></div>
+        </section>
+        <section class="cta">
+            <div class="container cta-inner">
+                <div>
+                    <p class="kicker">CONTACT</p>
+                    <h2>まずは、1スポットから相談できます。</h2>
+                    <p>企画段階でも大丈夫です。地域・イベント・施設に合う見せ方を一緒に整理します。</p>
+                </div><a class="btn dark" href="./contact.html">問い合わせる</a>
             </div>
         </section>
     </main>
-
-    <footer>
-        <p>&copy; 2026 POZE LLC. All Rights Reserved.</p>
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div><a class="footer-brand" href="./index.html">POZE LLC.</a>
+                <p>現地でしか撮れない、特別な記念写真を。Soraniarは地域・施設・イベントの魅力をARフォト体験に変えるサービスです。</p>
+            </div>
+            <div class="footer-links"><a href="./service.html">Soraniar</a><a href="./cases.html">活用シーン</a><a
+                    href="./company.html">会社概要</a><a href="./contact.html">お問い合わせ</a><a
+                    href="https://poze-spot.com/map.html" target="_blank" rel="noopener">Soraniarマップ</a></div>
+        </div>
+        <div class="container copyright">© 2026 POZE LLC. All Rights Reserved.</div>
     </footer>
+    <script src="./script.js"></script>
 </body>
+
 </html>
